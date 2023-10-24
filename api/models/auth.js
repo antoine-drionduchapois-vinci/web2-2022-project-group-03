@@ -10,7 +10,7 @@ const lifetimeJwt = 24 * 60 * 60 * 1000; // in ms : 24 * 60 * 60 * 1000 = 24h
 const saltRounds = 10;
 
 const jsonDbPath = path.join(__dirname, '/../data/users.json');
-
+const test = 1;
 // Default user
 const defaultUsers = [
     {
